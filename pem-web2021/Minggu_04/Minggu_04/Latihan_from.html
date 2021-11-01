@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Latihan From</title>
+</head>
+<body>
+    <table>
+        <h1>Info Pendaftaran</h1>
+        <tr>
+            <td> NISN  </td>
+            <td> : </td>
+            <td><input type="text" name="fnisn" placeholder="Masukan NISN"></td>
+        </tr>
+        <tr>
+           <td>Asal Sekolah</td>
+           <td> : </td>
+           <td><input type="text" name="fasalsekolah" placeholder="Asal sekolah"></td>
+        </tr>
+        <tr>
+            <td>Tahun Lulus</td>
+            <td>:</td>
+         <td><h5>lampirkan fotocopy ijazah</h5></td> 
+            <td><input type="file" name="ftahunLulus"/>
+        </tr>  
+    </table>
+     <h1>Data Calon Peserta</h1>
+    <p>
+        <label>Nama Lengkap :</label>
+        <input type="text" name="fnamaLengkap" placeholder="Nama Lengkap..."/> 
+    </p>
+    <p>
+        <label>NIK :</label>
+        <input type="text" name="Fnik" placeholder="Masukan NIK"/>
+       
+    </p>
+    <p>
+        <label>Tempat,Tanggal Lahir:</label>
+        <input type="date" name="ftempat" /> 
+        <br>
+        <h5>lampirkan Akte Kelahiran yang telah di legalisir</h5>
+        <input type="file" name="ftempatTanggalLahir"/>
+    </p>
+    <p>
+        <label>Umur :</label>
+        <input type="number" name="fumur" min="10" max="90" placeholder="Umur"/> 
+    </p>
+    <p>
+        <input type="submit" name="submit" value="send"/> 
+    </p>
+    <!--fotocopy akte dilampirkan-->
+    <p>
+        <label>Jenis Kelamin :</label>
+        <label><input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-Laki</label>
+        <label><input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</label>
+    </p>
+    <p>
+        <label>Alamat :</label>
+        <input type="text" name="falamat" placeholder="Lengkapi alamat..," /> 
+        <tr>
+            <td rowspan = "4"> </td>
+            <!--rowspan untuk menggabungkan baris pada tabel -->
+        <br><br>
+        <td> Desa/Kel.</td>
+        <input type="text" name="Fdes" placeholder="Masukan Desa anda"/>
+        </tr>
+        <br><br>
+        <tr>  
+            <td>Kecamatan</td>
+            <input type="text" name="Fkec" placeholder="Masukan Kecamatan anda"/>
+        </tr>
+        <br><br>
+        <tr>  
+            <td>Kabupaten</td>
+            <input type="text" name="Fkab" placeholder="Masukan kabupaten  anda"/>
+        </tr>
+        <br><br>
+            <td>Provinsi</td>
+            <input list="fprov" name="fprov" placeholder="Masukan provinsi anda"/>
+            <datalist id="fprovOrtu">
+                <option value="Jawa Barat"></option>
+                <option value="Jawa Tengah"></option>
+                <option value="Jawa Timur"></option>
+              </datalist>
+    </p>
+    <p>
+        <label>E-mail :</label>
+        <input type="email" name="femail" placeholder="your email.."/> 
+    </p>
+    
+    <h1>Data Orang Tua </h1> 
+    <p>
+        <label>Nomor Kartu Keluarga :</label>
+        <input type="text" name="fNomorKK" placeholder="Nomor Kartu Keluarga"/>
+        <h5>lampirkan KK</h5>
+        <input type="file" name="fNomorKK"/> 
+    </p>
+    <p>
+        <label>Nama Ayah Kandung:</label>
+        <input type="text" name="fnamaAyah" placeholder="Nama Ayah Kandung"/> 
+    </p>
+    <p>
+        <label>Agama :</label>
+        <select name="fAgama">
+           <option value="islam">Islam</option>
+           <option value="kristen">Kristen</option>
+           <option value="hindu">Hindu</option>
+           <option value="budha">Budha</option>
+        </select>
+    </p>
+    <p>
+        <label>Pekerjaan :</label>
+        <input type="text" name="fPekerjaan"placeholder="Pekerjaan"/> 
+    </p>
+    <p>
+        <label rowspan = "4">Alamat Orang Tua :</label>
+        <input type="text" name="falamat" placeholder="Masukan Alamat"/> 
+        <tr>
+            <td rowspan = "4"></td>
+            <!--rowspan untuk menggabungkan baris pada tabel -->
+        <br><br>
+        <td> Desa/Kel.</td>
+        <input type="text" name="Fdes" placeholder="Masukan Desa anda"/>
+        </tr>
+        <br><br>
+        <tr>  
+            <td>Kecamatan</td>
+            <input type="text" name="Fkec" placeholder="Masukan Kecamatan anda"/>
+        </tr>
+        <br><br>
+        <tr>  
+            <td>Kabupaten</td>
+            <input type="text" name="Fkab" placeholder="Masukan kabupaten  anda"/>
+        </tr>
+        <br><br>
+        <tr> 
+        <br> 
+        <label><td>Provinsi</td></label>
+             <input list="fprov" name="fprov" placeholder="Masukan provinsi anda">
+             <datalist name="fprof">
+                < option value="Jawa Tengah"></option>
+                <option value="Jawa Timur"></option>
+                <option value="Jawa Barat"></option>
+              </datalist>
+        </tr>
+    </p>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Fromulir PPDB_21</title>
+  </head>
+  <body>
+    <!-- Header Formulir Pendaftaran -->
+    <h1>Formulir Pendaftaran PPDB Jalur Zonasi Tahun 2021</h1>
+    <form >
+      <!--Tabel pertama -->
+      <table id="ftabelForm">
+        <tr id="ftableHeader">
+          <td colspan="2"><h2>Info Pendaftaran</h2></td>
+        </tr>
+        <!-- Body Info Pendaftaran-->
+        <tr><!--Pembuatan baris pada pada tabel-->
+          <td colspan="2">
+            <label>NISN</label><br/>
+            <input type="text" id="fNisn" name="fNisn" placeholder="Masukkan Nomor Induk Siswa Nasional" required/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>Asal Sekolah</label><br />
+            <input type="text" id="fasalSekolah" name="fasalsekolah" placeholder="Masukkan Asal Sekolah"/>
+          </td>
+        </tr>
+        <tr>
+          <td><!--pembuatan kolom-->
+            <label>Tahun Lulus</label>
+            <input type="text" id="ftahunLulus" name="ftahunLulus" placeholder="Masukkan Tahun Lulus"/>
+          </td>
+          <td>
+            <label>Lampirkan File Fotocopy Ijazah</label>
+            <input type="file" name="flampiranIjazah" id="flampiranIjazah" style="border: none"required/>
+          </td>
+        </tr>
+
+        <!-- Tabel kedua (Data Calon Peserta) -->
+        <tr>
+          <td colspan="2"><h2>Data Calon Peserta</h2></td>
+        </tr>
+        <!-- Body Data Calon Peserta -->
+        <tr>
+          <td colspan="2">
+            <label>Nama Lengkap</label>
+            <input type="text" id="fnamaLengkap" name="fnamaLengkap" placeholder="Masukkan Nama Lengkap"required/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>Nomor Induk Keluarga</label>
+            <input type="number" id="fnik" name="fnik" placeholder="Masukkan Nomor Induk Keluarga"required/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Tempat Lahir</label>
+            <input type="text" name="ftempatLahir" id="ftempatLahir" placeholder="Masukkan Tempat Lahir"required/>
+            <label>Tanggal Lahir</label>
+            <!--type text -->
+            <input type="date" name="ftanggalLahir" id="ftanggalLahir"  min="2000-07-05" max="2004-08-20" />
+          </td>
+          <td>
+            <label>Lampirkan File Fotocopy Akta Kelahiran yang Telah dilegalisir</label>
+            <input type="file" id="flampiranAkte" name="flampiranAkte" style="border: none"/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>Jenis Kelamin</label><br/>
+            <input type="radio" name="fjenisKelamin" id="flaki" value="Laki-Laki" style="width:40px"/>
+            <label for="laki">Laki-Laki</label>
+            <input type="radio" name="jeniskelamin" id="fperempuan" value="Perempuan" style="width:40px"/>
+            <label for="perempuan">Perempuan</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Alamat</label>
+            <textarea
+              name="falamatPeserta"
+              id="falamatPeserta"
+              cols="50"
+              rows="4"
+              style="font-size: 16px;  margin-top: 4px; border-radius: 10px; padding-left: 8px; border: 1px solid #ddd"
+              placeholder="Masukkan Alamat Lengkap Anda"
+            ></textarea>
+          </td>
+          <td id="falamatPeserta">
+            <label>Provinsi</label>
+            <input list="fprovinsiPeserta" name="fprovinsiPeserta" placeholder="Pilih Provinsi" required />
+            <datalist id="fprovinsiPeserta">
+              <option value="Jawa Tengah"></option>
+              <option value="Jawa Timur"></option>
+              <option value="Jawa Barat"></option>
+            </datalist>
+            <label>Kabupaten/Kota</label>
+            <input type="text" name="fkabPeserta" id="kabPeserta" placeholder="Masukkan Kabupaten/Kota"/>
+            <label>Kecamatan</label>
+            <input type="text" name="fkecPeserta" id="kecPeserta" placeholder="Masukkan Kecamatan"/>
+            <label>Desa/Kelurahan</label>
+            <input type="text" name="f
+            desaPeserta" id="desaPeserta" placeholder="Masukkan Desa/Kelurahan"/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>Email Aktif</label>
+            <input type="email" name="femail" id="femail" placeholder="Masukkan E-Mail"required/>
+          </td>
+        </tr>
+        <!--tabel ke-3 (Data Orang Tua) -->
+        <tr>
+          <td colspan="2"><h2>Data Orang Tua</h2></td>
+        </tr>
+        <tr>
+          <td>
+            <label>Nomor Kartu Keluarga</label>
+            <input type="number" name="fnoKk" id="fnoKk" placeholder="Masukkan Nomor Kartu Keluarga"required/>
+          </td>
+          <td>
+            <label>Lampirkan File Fotocopy Kartu Keluarga</label>
+            <input type="file" name="flampiranKk" id="lampiranKk" style="border: none"required/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>Nama Ayah Kandung</label>
+            <input type="text" name="fnamaAyah" id="namaAyah" placeholder="Masukkan Nama Ayah Kandung" required/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Agama</label>
+            <input list="fagamaAyah" name="fagamaAayah" placeholder="Pilih Agama"/>
+            <!--datalist menentukan daftar pilihan, option untuk mendefinisikan pilihan dalam daftar pilih-->
+            <datalist id="agamaAyah">
+              <option value="Islam"></option>
+              <option value="Kristen"></option>
+              <option value="Buddha"></option>
+              <option value="Hindu"></option>
+              <option value="Katholik"></option>
+            </datalist>
+          </td>
+          <td>
+            <label>Pekerjaan</label>
+            <input type="text" id="pekerjaanAyah" name="fpekerjaanAyah" placeholder="Masukkan Pekerjaan Ayah" required />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>Nama Ibu Kandung</label>
+            <input type="text" name="fnamaIbu" id="namaIbu" placeholder="Masukkan Nama Ibu Kandung" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Agama</label>
+            <input list="agamaIbu" name="agamaIbu" placeholder="Pilih Agama" />
+            <datalist id="agamaIbu">
+              <option value="Islam"></option>
+              <option value="Kristen"></option>
+              <option value="Buddha"></option>
+              <option value="Hindu"></option>
+              <option value="Katholik"></option>
+            </datalist>
+          </td>
+          <td>
+            <label>Pekerjaan</label>
+            <input type="text" id="fpekerjaanIbu" name="fpekerjaanIbu" placeholder="Masukkan Pekerjaan Ibu" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Alamat</label>
+            <!--texarea berguna untuk menampung jumlah karakter yang tidak terbatas-->
+            <textarea
+              name="falamatOrtu"
+              id="falamatOrtu"
+              rows="6"
+              cols="60"
+              style="font-size: 16px; border-radius: 10px; margin-top: 4px; padding-left: 8px; border: 1px solid #ddd"
+              placeholder="Masukkan Alamat Lengkap Orang Tua Anda"
+              required
+            ></textarea>
+          </td>
+          <td id="falamatOrtu">
+            <label>Provinsi</label>
+            <input list="fprovOrtu" name="fprovOrtu" placeholder="Pilih Provinsi" required />
+            <datalist id="fprovOrtu">
+              <option value="Jawa Barat"></option>
+              <option value="Jawa Tengah"></option>
+              <option value="Jawa Timur"></option>
+            </datalist>
+            <label>Kabupaten/Kota</label>
+            <input type="text" name="fkabOrtu" id="fkabOrtu" placeholder="Masukkan Kabupaten/Kota" required />
+            <label>Kecamatan</label>
+            <input type="text" name="fkecOrtu" id="fkecOrtu" placeholder="Masukkan Kecamatan" required />
+            <label>Desa/Kelurahan</label>
+            <input type="text" name="fdesOrtu" id="fdesOrtu " placeholder="Masukkan Desa/Kelurahan" required />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button id="fdaftar" name="fdaftar" type="submit">Daftar</button>
+            <!--type submit untuk menampilkan tombol kirim-->
+          </td>
+        </tr>
+      </table>
+    </form>
+    <footer><!--Hak cipta-->
+      <div>Copyright@NIDA AULIA KARIMA</div>
+    </footer>
+  </body>
+</html>
