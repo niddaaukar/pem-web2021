@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nida website</title>
+    <!--css external mengguakan link, jika ingin menggunakan @import maka gunakan
+    <style type="text/css">
+        @import ""style.css";
+     </style>-->
+    <link rel="stylesheet" type="text/css" href="nida.css">
+    <!--css dalam tag head-->
+    <!--css internal-->
+    <style>
+        #header{
+            background-image: url("bg.latian.jpg");
+            color:white;
+            height: 100px;
+            padding: 50px;
+            text-align: center;
+        } 
+        input[type=text] {
+            background:black;
+            color: black;
+            padding: 10px;
+            border: 1px solid black;
+            text-align:left;
+        }
+        a[target] {
+        background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Selamat Datang di Website saya</h1>
+    </header>
+    <!--h2 saya menggunakan css inline yaitu css yang berada langsung pada atribut html-->
+     <h2 style="text-align: center; font-family: 'Times New Roman';">For Your Information</h2>
+    <p>Pada kesempatan kali ini saya mencoba menggabungkan <b class="blue">CSS</b> dari  praktikum 1-8 . 
+    dari perkuliahan ini <b class="blue">PWB</b>khususnya, saya sudah banyak belajar banyak hal semoga nantinya ilmu saya dapat bermanfaat aamiin, saya juga hendak mengucapkan terimakasih
+    kepada dosen saya bapak <b>Abu Salam M.Kom</b> selaku dosen pada mata perkuliahan <i>Pemprograman Berbasis Web</i>. Untuk pengiriman tugas pbw itu sendiri saya menggunakan git berikut akun git saya
+    <a href="https://github.com/niddaaukar/pem-web2021.git" target="_blank">github saya</a> terimakasih.
+    </p>
+    <br><br>
+    <input type="text" placeholder="ketikan sesuatu..."/> 
+</body>
+</html>
