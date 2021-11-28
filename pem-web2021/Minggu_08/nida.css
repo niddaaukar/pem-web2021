@@ -1,0 +1,16 @@
+P{
+    color: black;
+    text-align: justify;
+    padding: 30px;
+    font-size:20px;
+}
+i {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: orangered;
+}
+.blue{
+    color: white;
+    background:blue;
+    padding: 5px;
+}
