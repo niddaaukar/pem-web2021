@@ -1,0 +1,22 @@
+
+$fontSize: 16px;
+$colorOrange: orange;
+$colorBlue: teal;
+h1{
+    color:$colorBlue;
+}
+ul{
+    font-size: $fontSize;
+    li{
+        margin-left: 70px;
+        float:left;
+a{
+    color:$colorBlue;
+    font-size:none;
+}
+a:hover{
+    color: $colorOrange;
+    font-weight: italic;
+    }
+   }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAQA,AAAA,EAAE,CAAA;EANE,MAAM,EAOY,GAAG,CAPN,KAAK,CAAC,IAAI;CAQ5B;;AAFD,AAJI,EAIF,AAJG,MAAM,CAAA;EACH,YAAY,EAAE,IAAI;CACrB",
+    "sources": [
+        "nida.scss"
+    ],
+    "names": [],
+    "file": "nida.css"
+}
