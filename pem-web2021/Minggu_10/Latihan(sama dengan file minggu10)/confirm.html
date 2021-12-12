@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Confirm</title>
+</head>
+<body>
+    <script>
+        //dialog confirm digunakan untuk memastikan pengguna saat melakukan tindakan yang telah disetujui sebelumnya
+        //dialog confirm ini penting karena bisa membuat seseorang berpikir akan tindakannya misal lanjut/tidak
+        var yakin= confirm("Apakah kamu yalin mengunjungi website UDINUS?");
+        //jika yakin maka akan menuju lokasi web tersebut
+        if (yakin) {window.location ="https.//dinus.ac.id";
+     }
+        //bila memilih tidak maka akan tetap pada halaman web.
+        else{
+            document.write("belum, tetap disini saja");
+        }
+        </script>
+</body>
+</html>
