@@ -1,5 +1,5 @@
 // perulangan foreach dapat disederhanakan dengan operator in
-var languages = ["Javascript", "HTML", "CSS", "Typescript"];
-for(i in languages){
- document.write(i+". "+ languages[i] + "<br/>");
+var bahasa = ["Javascript", "HTML", "CSS", "Python"];
+for(i = 0; i < bahasa.length; i++){
+ document.write(i+ 1 + " . "+ bahasa[i] + "<br/>");
 }
