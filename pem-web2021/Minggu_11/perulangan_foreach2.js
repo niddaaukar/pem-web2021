@@ -3,5 +3,5 @@ var days = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agu
 // Kemudian kita tampilkan semua nama bulan
 // dengan menggunakan method foreach
 days.forEach(function(day){
- document.write("<p>" + day + "</p>");
+ document.write( day + " , ");
 });
