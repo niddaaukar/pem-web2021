@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bab Ajax</title>
+  </head>
+  <body>
+    <h1>Nida Aulia Karima</h1>
+    <h2>Belajar AJAX</h2>
+
+    <!-- ajax 1-->
+    <div id="hasilAjax1"></div>
+    <br />
+    <button onclick="loadContentAjax1()">Load Content</button>
+    <!-- js ajax 1 external -->
+    <script src="ajax-1.js"></script>
+    <br /><br />
+    <hr />
+    <br />
+
+    <!-- ajax 2 -->
+    <button id="buttonResetA2" onclick="resetAjax()">Reset</button>
+    <div id="hasilAjax2"></div>
+    <br />
+    <button id="buttonA2" onclick="loadContentAjax2()">Load Content</button>
+    <!-- js ajax 2 external-->
+    <script src="ajax-2.js"></script>
+    <br /><br />
+    <hr />
+
+    <!-- ajax 3 -->
+    <h4>Mengirim data Menggunakan AJAX</h4>
+    <form action="POST" onsubmit="return sendData()">
+      <label for="title">Title</label><br />
+      <input type="text" name="title" id="title" placeholder="Masukkan Judul..." /><br />
+      <label for="isi">Isi Artikel</label><br />
+      <textarea name="isi" id="isi" cols="21" rows="10" placeholder="Masukkan Isi Artikel..."></textarea><br />
+      <input type="submit" id="submit" value="Kirim" />
+    </form>
+    <!-- js ajax 2 external -->
+    <script src="ajax-3.js"></script>
+    <br /><br />
+    <hr />
+
+    <!-- ajax JQuery 1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <h4>Load Data</h4>
+    <pre id="hasil"></pre>
+    <!--js ajax JQuery 1 external -->
+    <script src="ajax-jquery1.js"></script>
+    <br /><br />
+    <hr />
+    <!-- ajax JQuery 2 -->
+    <h4>Load Data</h4>
+    <p id="namaSaya"></p>
+    <p id="noFavoritSaya"></p>
+    <p id="hobiSaya"></p>
+    <p id="namaDia"></p>
+    <p id="noFavoritDia"></p>
+    <p id="hobiDia"></p>
+    <p id="nameJS"></p>
+    <!-- js ajax query external -->
+    <script src="ajax-jquery2.js"></script>
+    <br /><br />
+    <hr />
+    <!-- ajax fetch -->
+    <h4>Ajax fetch</h4>
+    <button onclick="loadFetch()">Load data</button>
+    <p id="hasilFetch"></p>
+    <!-- js ajax fetch external-->
+    <script src="ajax-fetch.js"></script>
+    <br /><br />
+    <hr />
+    <!-- axios ajax -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <h4>Ajax axios</h4>
+    <button id="btnAxios" onclick="loadAxios()">Load data</button>
+    <p id="hasilAxios"></p>
+    <!-- js ajax axios external -->
+    <script src="ajax-axios.js"></script>
+  </body>
+</html>
