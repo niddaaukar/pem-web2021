@@ -1,0 +1,46 @@
+[
+  {
+    "nim": "A11.2021.13495",
+    "nama": "Nida Aulia Karima",
+    "alamat": "Pemalang",
+    "jurusan": "Teknik Informatika",
+    "matkul": [
+      {
+        "mataKuliah": "Pemprograman Berbasis web",
+        "dosenPengampu": "Pak abu"
+      },
+      {
+        "mataKuliah": "Matematika diskrit",
+        "dosenPengampu": " ibu erna"
+      },
+      {
+        "mataKuliah": "KALKULUS 1",
+        "dosenPengampu": "Ibu Yani parti"
+      },
+      {
+        "mataKuliah": "Organisasi dan arsitektur komputer",
+        "dosenPengampu": "pak salam"
+      }
+    ]
+  },
+  {
+    "nim": "K11.2021.54097",
+    "nama": "Inayah Fajrin ",
+    "alamat": "Pemalang",
+    "jurusan": "Bimbingan dan Konseling",
+    "matkul": [
+      {
+        "mataKuliah": "Bahasa Indonesia",
+        "dosenPengampu": "Ibu indah kumalasari"
+      },
+      {
+        "mataKuliah": "Pendidikan kewarganegaraan",
+        "dosenPengampu": "Bapak Wildan "
+      },
+      {
+        "mataKuliah": "Dasar-dasar Bimbingan Dan Konseling ",
+        "dosenPengampu": "Ibu Waridah"
+      }
+    ]
+  }
+]
