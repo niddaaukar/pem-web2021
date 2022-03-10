@@ -3,6 +3,3 @@ Nama      : NIDA AULIA KARIMA
 Nim       : A11.2021.13495
 Kelompok  : 4105
 Asal      : Kabupaten Pemalang
-
-saya hanya menambahkan folder pak agar tampilan pada github urut,, untuk pengumpulan tugas  Minggu1 saya ontime. awalnya pada repo webdas lalu saya tambahkan pada repo sekarang.
-izin menambahkan keterangan pak, waktu itu saya hendak mengganti repo baru yaitu pada repo Pemprograman_web2021 Namun file yang dapat dibuka file 1-3 untuk file 4 masih kekunci, sudah coba beberapa cara namun belum bisa terbuka file minggu04. lalu tiba-tiba  saya cek pada repo pemweb ini ( yang sekarang) itu file dulu yang ada pada repo ini itu hilang beserta historynya, nah saya binggung knp kok hilang mungkin karena kemarin saya mengutak- atik git pak alhasil file dulu dan history hilang,, lalu ketika liat repo ini kosong saya isi lagi file minggu 1-4 menggunakan git bash, alhamdulillah bisa. jadi sebenarnya repo ini sudah lama dan juga file dan historynya hilang pak namun saya mengutak atiknya saya lupa soalnya begitu banyak eror saat saya menggunakan git sampai akhirnya sekarang bisa push dengan git.
